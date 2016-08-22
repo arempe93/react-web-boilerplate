@@ -1,0 +1,13 @@
+@import 'colors';
+@import 'typography';
+@import 'screens';
+
+@import 'inputs';
+@import 'buttons';
+
+@import 'cards';
+
+body {
+  background-color: $background;
+  color: $foreground;
+}

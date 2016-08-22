@@ -1,0 +1,35 @@
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px 15px;
+
+  font-size: 18px;
+  line-height: 1.75;
+
+  background-color: white;
+  border: 1px solid $border-grey;
+  border-radius: 3px;
+
+  &:active,
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 4px rgba(18, 92, 175, 0.6);
+    border-color: $border-grey !important;
+  }
+}
+
+.input {
+  margin-bottom: 20px;
+
+  &.error {
+    padding: 15px 20px;
+
+    background-color: $danger;
+    color: white;
+    border-radius: 4px;
+
+    font-size: 18px;
+    line-height: 1.75;
+  }
+}
